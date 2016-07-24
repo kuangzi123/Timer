@@ -1,0 +1,30 @@
+body {
+  background: #eee;
+}
+
+.timeDisplay{
+  display : none;
+}
+
+.divBox{
+  margin:100px auto;
+  border:1px solid green;
+  height:300px;
+  width:600px;
+  font-weight:bold;
+  font-size:800%;
+  position:relative;
+}
+
+.childDivBox{
+  position: absolute;
+  top:20%;
+  left:8%;
+}
+.alarmYellow{
+  background-color:yellow;
+}
+
+.alarmRed{
+  background-color:red;
+}
