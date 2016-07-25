@@ -1,30 +1,127 @@
 body {
   background: #eee;
 }
-
-.timeDisplay{
-  display : none;
+.nav-bar {
+  display: block;
+  position: relative;
+  min-height: 50px;
+  background-color: #fff;
+  /*    @media (min-width: 1200px){
+        .container{
+            width:1170px;
+        }
+    }
+    @media (min-width: 992px){
+        .container{
+            width:970px;
+        }
+    }
+    @media (min-width: 768px){
+        .container{
+            width:750px;
+        }
+    }*/
 }
-
-.divBox{
-  margin:100px auto;
-  border:1px solid green;
-  height:300px;
-  width:600px;
-  font-weight:bold;
-  font-size:800%;
-  position:relative;
+.container {
+  margin: 0 auto;
+  width: 1200px;
 }
-
-.childDivBox{
-  position: absolute;
-  top:20%;
-  left:8%;
+.container .nav-header {
+  float: left;
 }
-.alarmYellow{
-  background-color:yellow;
+.container .nav-header button {
+  color: #563d7c;
+  font-weight: 500;
+  padding: 15px;
+  margin-left: 15px;
+  border: 0 none #fff;
+  background-color: transparent;
+  background-image: none;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
 }
-
-.alarmRed{
-  background-color:red;
+.container .navbr-nav {
+  margin: 0;
+}
+.container .navbr-nav li {
+  padding: 15px;
+}
+.container .navbr-nav li a {
+  cursor: pointer;
+  font-weight: 500;
+  color: #563d7c;
+  font-size: 100%;
+}
+.container .navbr-nav-left {
+  float: left;
+}
+.container .navbr-nav-left li {
+  float: left;
+}
+.container .navbr-nav-right {
+  float: right;
+}
+.container .navbr-nav-right li {
+  float: right;
+}
+.my-main {
+  background-color: #6f5499;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.my-main .content {
+  padding: 100px 0;
+  margin: auto;
+  width: 1170px;
+  color: #fff;
+}
+.my-main .content .B-span {
+  display: block;
+  width: 144px;
+  height: 144px;
+  margin: 0 auto 30px;
+  border-radius: 15%;
+  border: 1px solid #cdbfe3;
+  font-weight: 500;
+  font-size: 108px;
+  line-height: 140px;
+  cursor: default;
+}
+.my-main .content .description {
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0 auto 30px;
+}
+.my-main .content .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 1px solid #cdbfe3;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.my-main .content .aLink {
+  font-weight: 300;
+}
+.my-main .content .aLink:hover {
+  font-weight: 100;
+  color: #6f5499;
+  background-color: #fff;
+  opacity: 0.9;
+}
+.my-main .content .version {
+  font-size: 80%;
+  margin: 30px auto;
+  line-height: 14px;
+  color: #9783b9;
+}
+.my-main .design {
+  background-color: #fff;
+  padding: 100px 0;
+}
+.my-main .design .pDesigned {
+  font-size: 40px;
+  margin: 20px 0 5px 0;
 }
